@@ -1,7 +1,12 @@
 
 import time
-num = int(input('何匹数えますか？：'))
-
+while True:
+ num = int(input('何匹数えますか？：'))
+ if num > 100:
+    print('多すぎます')
+    continue
+ else:
+    break
 a = 1
 while True:
  time.sleep(a * 0.8)
