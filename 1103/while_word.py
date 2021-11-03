@@ -9,8 +9,8 @@ while True:
  if num in tan:
      print("すでに登録済みです")
  elif num =="LIST":
-     print(tan)
+     print('単語リスト：',tan)
  else:
      tan.append(num)
 
-print(tan)
+print('これまでに覚えた単語：',tan)
